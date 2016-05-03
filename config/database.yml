@@ -2,7 +2,16 @@ development:
   adapter: postgresql
   encoding: unicode
   host: localhost
-  database: racion
+  database: testapp
+  pool: 10
+  username: sadmin
+  password: qpwoeiruty
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: testapp_test
   pool: 10
   username: sadmin
   password: qpwoeiruty
