@@ -11,8 +11,11 @@
     = Status.get_message
 
 = form_tag root_path, method: :get do
-  = text_field_tag :user_email, params[:user_email], placeholder: "Enter user's email to filter commits"
-  = submit_tag
+  .row
+    .col-md-4
+      .form-group
+        = text_field_tag :user_email, params[:user_email], placeholder: "Enter user's email to filter commits", class: "form-control"
+    .col-md-8= submit_tag "Filter", class: "btn btn-primary"
 
 %table.table
   %thead
