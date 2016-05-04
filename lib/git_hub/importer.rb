@@ -62,7 +62,7 @@ module GitHub
 
 		def header_links
 			@_header_links ||= (
-				links = response.headers[:link].split(", ")
+				links = response.headers[:link].split(", ") rescue []
 				links.inject({}) do |res, link|
 					url = link.match(URL_REGEX)[1]
 					rel = link.match(REL_REGEX)[1]
