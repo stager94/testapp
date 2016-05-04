@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20160504011922) do
   enable_extension "plpgsql"
 
   create_table "commits", force: :cascade do |t|
-    t.time     "date"
+    t.datetime "date"
     t.integer  "user_id"
     t.string   "sha"
     t.string   "message"

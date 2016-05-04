@@ -1,0 +1,16 @@
+%nav.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "#"} GitHub Commits
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      = form_tag process_path, class: "navbar-form navbar-right", role: "search" do
+        .form-group
+          = text_field_tag :username, nil, class: "form-control", placeholder: "Username"
+        .form-group
+          = text_field_tag :repository, nil, class: "form-control", placeholder: "Repository Name"
+        = submit_tag "Submit", class: "btn btn-default"

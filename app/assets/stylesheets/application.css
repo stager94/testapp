@@ -14,7 +14,6 @@
  *= require_self
  */
 
-
-.bg-danger {
+.bg-danger, .bg-success {
 	padding: 15px;
 }

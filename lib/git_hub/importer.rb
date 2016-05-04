@@ -53,7 +53,6 @@ module GitHub
 		end
 
 		def prepare_commit_params(commit)
-			binding.pry
 			{
 				sha: commit["sha"],
 				date: Time.parse(commit["commit"]["author"]["date"]),
