@@ -1,0 +1,30 @@
+%h1 Commits
+
+- if Status.failed?
+	%p.bg-danger
+		%b Error!
+		= Status.get_message
+
+- if Status.in_process?
+	%p.bg-success
+		%b Important!
+		= Status.get_message
+
+%table.table
+	%thead
+		%tr
+			%th SHA
+			%th User Name
+			%th User Email
+			%th Message
+			%th Date
+	%tbody
+		- @commits.each do |commit|
+			%tr
+				%td= commit.sha
+				%td= commit.user.name
+				%td= commit.user.email
+				%td= commit.message
+				%td= commit.date
+
+= will_paginate @commits, renderer: BootstrapPagination::Rails
