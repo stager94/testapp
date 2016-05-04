@@ -1,0 +1,100 @@
+[
+  {
+    "sha": "f0a86c26d2ab46b575a3bbabb6bb79cc5d89c485",
+    "commit": {
+      "author": {
+        "name": "MarRyb",
+        "email": "marryb@macbook-pro-marryb.local",
+        "date": "2016-05-04T03:33:24Z"
+      },
+      "committer": {
+        "name": "MarRyb",
+        "email": "marryb@macbook-pro-marryb.local",
+        "date": "2016-05-04T03:33:24Z"
+      },
+      "message": "third commit",
+      "tree": {
+        "sha": "4c4e970653d73a7990612df38fbe8e1eb55de702",
+        "url": "https://api.github.com/repos/stager94/test_commits/git/trees/4c4e970653d73a7990612df38fbe8e1eb55de702"
+      },
+      "url": "https://api.github.com/repos/stager94/test_commits/git/commits/f0a86c26d2ab46b575a3bbabb6bb79cc5d89c485",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/stager94/test_commits/commits/f0a86c26d2ab46b575a3bbabb6bb79cc5d89c485",
+    "html_url": "https://github.com/stager94/test_commits/commit/f0a86c26d2ab46b575a3bbabb6bb79cc5d89c485",
+    "comments_url": "https://api.github.com/repos/stager94/test_commits/commits/f0a86c26d2ab46b575a3bbabb6bb79cc5d89c485/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "7d6f0078417d775f79fb6ae4eb4637f3800e893c",
+        "url": "https://api.github.com/repos/stager94/test_commits/commits/7d6f0078417d775f79fb6ae4eb4637f3800e893c",
+        "html_url": "https://github.com/stager94/test_commits/commit/7d6f0078417d775f79fb6ae4eb4637f3800e893c"
+      }
+    ]
+  },
+  {
+    "sha": "7d6f0078417d775f79fb6ae4eb4637f3800e893c",
+    "commit": {
+      "author": {
+        "name": "MarRyb",
+        "email": "marryb@macbook-pro-marryb.local",
+        "date": "2016-05-04T03:33:02Z"
+      },
+      "committer": {
+        "name": "MarRyb",
+        "email": "marryb@macbook-pro-marryb.local",
+        "date": "2016-05-04T03:33:02Z"
+      },
+      "message": "second commit",
+      "tree": {
+        "sha": "b7ca519f7eb5bfa3eec5eff5a48321b26bd517b1",
+        "url": "https://api.github.com/repos/stager94/test_commits/git/trees/b7ca519f7eb5bfa3eec5eff5a48321b26bd517b1"
+      },
+      "url": "https://api.github.com/repos/stager94/test_commits/git/commits/7d6f0078417d775f79fb6ae4eb4637f3800e893c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/stager94/test_commits/commits/7d6f0078417d775f79fb6ae4eb4637f3800e893c",
+    "html_url": "https://github.com/stager94/test_commits/commit/7d6f0078417d775f79fb6ae4eb4637f3800e893c",
+    "comments_url": "https://api.github.com/repos/stager94/test_commits/commits/7d6f0078417d775f79fb6ae4eb4637f3800e893c/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "5b530f3e346bd78bc782af790daac34286cb4af5",
+        "url": "https://api.github.com/repos/stager94/test_commits/commits/5b530f3e346bd78bc782af790daac34286cb4af5",
+        "html_url": "https://github.com/stager94/test_commits/commit/5b530f3e346bd78bc782af790daac34286cb4af5"
+      }
+    ]
+  },
+  {
+    "sha": "5b530f3e346bd78bc782af790daac34286cb4af5",
+    "commit": {
+      "author": {
+        "name": "MarRyb",
+        "email": "marryb@macbook-pro-marryb.local",
+        "date": "2016-05-04T03:32:36Z"
+      },
+      "committer": {
+        "name": "MarRyb",
+        "email": "marryb@macbook-pro-marryb.local",
+        "date": "2016-05-04T03:32:36Z"
+      },
+      "message": "first commit",
+      "tree": {
+        "sha": "479c03e4146861e66e95d5b09c893efdcc158a3e",
+        "url": "https://api.github.com/repos/stager94/test_commits/git/trees/479c03e4146861e66e95d5b09c893efdcc158a3e"
+      },
+      "url": "https://api.github.com/repos/stager94/test_commits/git/commits/5b530f3e346bd78bc782af790daac34286cb4af5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/stager94/test_commits/commits/5b530f3e346bd78bc782af790daac34286cb4af5",
+    "html_url": "https://github.com/stager94/test_commits/commit/5b530f3e346bd78bc782af790daac34286cb4af5",
+    "comments_url": "https://api.github.com/repos/stager94/test_commits/commits/5b530f3e346bd78bc782af790daac34286cb4af5/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+
+    ]
+  }
+]

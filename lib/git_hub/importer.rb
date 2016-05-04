@@ -55,7 +55,7 @@ module GitHub
 		def prepare_commit_params(commit)
 			{
 				sha: commit["sha"],
-				date: Time.parse(commit["commit"]["author"]["date"]),
+				date: commit["commit"]["author"]["date"],
 				message: commit["commit"]["message"]
 			}
 		end
