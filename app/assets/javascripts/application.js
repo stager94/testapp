@@ -13,5 +13,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
+//= require best_in_place
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+  $('.best_in_place')
+    .best_in_place()
+    .bind('ajax:success', function(response, data) {
+        var user = JSON.parse(data);
+        $("td[data-user-id=" + user.id + "] span").html(user.name);
+    });
+});

@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
-  	@commits = Commit.includes(:user).by_date.paginate(page: params[:page], per_page: 30)
+  	@commits = Commit.includes(:user).ordered.by_user_email(params[:user_email]).paginate(page: params[:page], per_page: 30)
   end
 
   def pull

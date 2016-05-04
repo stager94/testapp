@@ -10,6 +10,10 @@
     %b Important!
     = Status.get_message
 
+= form_tag root_path, method: :get do
+  = text_field_tag :user_email, params[:user_email], placeholder: "Enter user's email to filter commits"
+  = submit_tag
+
 %table.table
   %thead
     %tr
@@ -22,9 +26,9 @@
     - @commits.each do |commit|
       %tr
         %td= commit.sha
-        %td= commit.user.name
+        %td{ data: { user_id: commit.user_id } }= best_in_place commit.user, :name
         %td= commit.user.email
-        %td= commit.message
+        %td= simple_format commit.message
         %td= commit.date
 
 = will_paginate @commits, renderer: BootstrapPagination::Rails

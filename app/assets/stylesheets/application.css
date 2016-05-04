@@ -17,3 +17,6 @@
 .bg-danger, .bg-success {
 	padding: 15px;
 }
+td[data-user-id] {
+	white-space: nowrap;
+}
