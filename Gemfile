@@ -25,6 +25,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
+gem 'pry'
+gem 'rest-client'
+
+gem 'delayed_job_active_record'
+gem 'daemons'
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap'
+gem 'haml'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
