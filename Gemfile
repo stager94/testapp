@@ -36,12 +36,19 @@ gem 'haml'
 gem 'best_in_place', '~> 3.0.1'
 gem 'responders', '~> 2.0'
 
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
 	# RSpec for Rails-3+
 	gem 'rspec-rails'
+
+	gem 'capistrano', '2.15.4'
+  gem 'rvm-capistrano', '1.5.1', require: false
+  gem 'capistrano_colors', '0.5.4', require: false
+  gem 'capistrano-ext', '1.2.1', require: false
 end
 
 group :test do
@@ -55,4 +62,9 @@ group :test do
 
 	# Strategies for cleaning databases in Ruby. Can be used to ensure a clean state for testing.
 	gem 'database_cleaner'
+end
+
+group :production do
+  gem 'unicorn', '4.8.2'
+  gem 'daemons'
 end
