@@ -7,6 +7,15 @@ development:
   username: sadmin
   password: qpwoeiruty
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: testapp
+  pool: 10
+  username: db_admin
+  password: qpwoeiruty
+
 test:
   adapter: postgresql
   encoding: unicode
